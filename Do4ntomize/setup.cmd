@@ -8,4 +8,6 @@ choco install brave winrar spotify steam-client epicgameslauncher 7zip anydesk.i
 echo if apps didnt install re do the command
 echo chaning wallpaper
 powershell "Invoke-WebRequest https://github.com/SteavenGamerYT/Setup-like-me/raw/main/Do4ntomize/wallpaper.jpg -OutFile C:\wallpaper.jpg"
-powershell "Set-WallPaper -Image "c:\wallpaper.jpg""
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d c:\wallpaper.jpg /f
+RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
+echo wallpaper changed
