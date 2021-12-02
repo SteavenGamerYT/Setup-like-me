@@ -7,5 +7,5 @@ echo Installing apps
 choco install brave winrar spotify steam-client epicgameslauncher 7zip anydesk.install git github.desktop vscode -y
 echo if apps didnt install re do the command
 echo chaning wallpaper
-powershell "Invoke-WebRequest https://raw.githubusercontent.com/SteavenGamerYT/Setup-like-me/Do4ntomize/main/wallpaper.png -OutFile C:\wallpaper.png"
-powershell "Set-WallPaper -Image "c:\wallpaper.png""
+powershell "Invoke-WebRequest https://raw.githubusercontent.com/SteavenGamerYT/Setup-like-me/Do4ntomize/main/wallpaper.png -OutFile C:\wallpaper.jpg"
+powershell "Set-WallPaper -Image "c:\wallpaper.jpg""
